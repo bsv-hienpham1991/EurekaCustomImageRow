@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E791C542421C095001E9A4C /* CustomImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E791C522421C095001E9A4C /* CustomImageCell.swift */; };
+		0E791C552421C095001E9A4C /* CustomImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E791C532421C095001E9A4C /* CustomImageCell.xib */; };
+		0E791C572421D14B001E9A4C /* PickerPropagator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E791C562421D14B001E9A4C /* PickerPropagator.swift */; };
 		0E89B9672421B91D000790F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E89B9662421B91D000790F8 /* AppDelegate.swift */; };
 		0E89B9692421B91D000790F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E89B9682421B91D000790F8 /* SceneDelegate.swift */; };
 		0E89B96B2421B91D000790F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E89B96A2421B91D000790F8 /* ViewController.swift */; };
@@ -14,6 +17,8 @@
 		0E89B9702421B921000790F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E89B96F2421B921000790F8 /* Assets.xcassets */; };
 		0E89B9732421B921000790F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E89B9712421B921000790F8 /* LaunchScreen.storyboard */; };
 		0E89B97E2421B921000790F8 /* EurekaCustomImageRowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E89B97D2421B921000790F8 /* EurekaCustomImageRowTests.swift */; };
+		37427831C9672E1D60964237 /* Pods_EurekaCustomImageRowTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97DD6C07FF20FBBE273B10BA /* Pods_EurekaCustomImageRowTests.framework */; };
+		7E0A6FEB31ACCDE3972CD2C3 /* Pods_EurekaCustomImageRow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B1C595B83E75B908EF97CA5 /* Pods_EurekaCustomImageRow.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +32,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E791C522421C095001E9A4C /* CustomImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageCell.swift; sourceTree = "<group>"; };
+		0E791C532421C095001E9A4C /* CustomImageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomImageCell.xib; sourceTree = "<group>"; };
+		0E791C562421D14B001E9A4C /* PickerPropagator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerPropagator.swift; sourceTree = "<group>"; };
 		0E89B9632421B91D000790F8 /* EurekaCustomImageRow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EurekaCustomImageRow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E89B9662421B91D000790F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0E89B9682421B91D000790F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +46,12 @@
 		0E89B9792421B921000790F8 /* EurekaCustomImageRowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EurekaCustomImageRowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E89B97D2421B921000790F8 /* EurekaCustomImageRowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EurekaCustomImageRowTests.swift; sourceTree = "<group>"; };
 		0E89B97F2421B921000790F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12FF578A14C9C7CAB09D975F /* Pods-EurekaCustomImageRowTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EurekaCustomImageRowTests.debug.xcconfig"; path = "Target Support Files/Pods-EurekaCustomImageRowTests/Pods-EurekaCustomImageRowTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5CD8288664BE7A432F4AB30C /* Pods-EurekaCustomImageRow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EurekaCustomImageRow.release.xcconfig"; path = "Target Support Files/Pods-EurekaCustomImageRow/Pods-EurekaCustomImageRow.release.xcconfig"; sourceTree = "<group>"; };
+		8B1C595B83E75B908EF97CA5 /* Pods_EurekaCustomImageRow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EurekaCustomImageRow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97DD6C07FF20FBBE273B10BA /* Pods_EurekaCustomImageRowTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EurekaCustomImageRowTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D40FF504031031C189679125 /* Pods-EurekaCustomImageRowTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EurekaCustomImageRowTests.release.xcconfig"; path = "Target Support Files/Pods-EurekaCustomImageRowTests/Pods-EurekaCustomImageRowTests.release.xcconfig"; sourceTree = "<group>"; };
+		EA18C8901F4ECD43EB181B58 /* Pods-EurekaCustomImageRow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EurekaCustomImageRow.debug.xcconfig"; path = "Target Support Files/Pods-EurekaCustomImageRow/Pods-EurekaCustomImageRow.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E0A6FEB31ACCDE3972CD2C3 /* Pods_EurekaCustomImageRow.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37427831C9672E1D60964237 /* Pods_EurekaCustomImageRowTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +80,8 @@
 				0E89B9652421B91D000790F8 /* EurekaCustomImageRow */,
 				0E89B97C2421B921000790F8 /* EurekaCustomImageRowTests */,
 				0E89B9642421B91D000790F8 /* Products */,
+				6CCEDD03ADD0FFF42BB9D7E6 /* Pods */,
+				731EFEF1826574752555C8A1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,6 +104,9 @@
 				0E89B96F2421B921000790F8 /* Assets.xcassets */,
 				0E89B9712421B921000790F8 /* LaunchScreen.storyboard */,
 				0E89B9742421B921000790F8 /* Info.plist */,
+				0E791C522421C095001E9A4C /* CustomImageCell.swift */,
+				0E791C532421C095001E9A4C /* CustomImageCell.xib */,
+				0E791C562421D14B001E9A4C /* PickerPropagator.swift */,
 			);
 			path = EurekaCustomImageRow;
 			sourceTree = "<group>";
@@ -99,6 +120,26 @@
 			path = EurekaCustomImageRowTests;
 			sourceTree = "<group>";
 		};
+		6CCEDD03ADD0FFF42BB9D7E6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA18C8901F4ECD43EB181B58 /* Pods-EurekaCustomImageRow.debug.xcconfig */,
+				5CD8288664BE7A432F4AB30C /* Pods-EurekaCustomImageRow.release.xcconfig */,
+				12FF578A14C9C7CAB09D975F /* Pods-EurekaCustomImageRowTests.debug.xcconfig */,
+				D40FF504031031C189679125 /* Pods-EurekaCustomImageRowTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		731EFEF1826574752555C8A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B1C595B83E75B908EF97CA5 /* Pods_EurekaCustomImageRow.framework */,
+				97DD6C07FF20FBBE273B10BA /* Pods_EurekaCustomImageRowTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +147,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E89B9822421B921000790F8 /* Build configuration list for PBXNativeTarget "EurekaCustomImageRow" */;
 			buildPhases = (
+				9108D6AC2EBD5237BF0E598D /* [CP] Check Pods Manifest.lock */,
 				0E89B95F2421B91D000790F8 /* Sources */,
 				0E89B9602421B91D000790F8 /* Frameworks */,
 				0E89B9612421B91D000790F8 /* Resources */,
+				ADA579BE7F6C2FDFDB526054 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +166,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E89B9852421B921000790F8 /* Build configuration list for PBXNativeTarget "EurekaCustomImageRowTests" */;
 			buildPhases = (
+				482AD5A5CC6B48C5F3230379 /* [CP] Check Pods Manifest.lock */,
 				0E89B9752421B921000790F8 /* Sources */,
 				0E89B9762421B921000790F8 /* Frameworks */,
 				0E89B9772421B921000790F8 /* Resources */,
@@ -182,6 +226,7 @@
 			files = (
 				0E89B9732421B921000790F8 /* LaunchScreen.storyboard in Resources */,
 				0E89B9702421B921000790F8 /* Assets.xcassets in Resources */,
+				0E791C552421C095001E9A4C /* CustomImageCell.xib in Resources */,
 				0E89B96E2421B91D000790F8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -195,6 +240,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		482AD5A5CC6B48C5F3230379 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EurekaCustomImageRowTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9108D6AC2EBD5237BF0E598D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EurekaCustomImageRow-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADA579BE7F6C2FDFDB526054 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EurekaCustomImageRow/Pods-EurekaCustomImageRow-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EurekaCustomImageRow/Pods-EurekaCustomImageRow-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EurekaCustomImageRow/Pods-EurekaCustomImageRow-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0E89B95F2421B91D000790F8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -202,7 +311,9 @@
 			files = (
 				0E89B96B2421B91D000790F8 /* ViewController.swift in Sources */,
 				0E89B9672421B91D000790F8 /* AppDelegate.swift in Sources */,
+				0E791C542421C095001E9A4C /* CustomImageCell.swift in Sources */,
 				0E89B9692421B91D000790F8 /* SceneDelegate.swift in Sources */,
+				0E791C572421D14B001E9A4C /* PickerPropagator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,10 +471,12 @@
 		};
 		0E89B9832421B921000790F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA18C8901F4ECD43EB181B58 /* Pods-EurekaCustomImageRow.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = EurekaCustomImageRow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -377,10 +490,12 @@
 		};
 		0E89B9842421B921000790F8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CD8288664BE7A432F4AB30C /* Pods-EurekaCustomImageRow.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = EurekaCustomImageRow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -394,6 +509,7 @@
 		};
 		0E89B9862421B921000790F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12FF578A14C9C7CAB09D975F /* Pods-EurekaCustomImageRowTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -415,6 +531,7 @@
 		};
 		0E89B9872421B921000790F8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D40FF504031031C189679125 /* Pods-EurekaCustomImageRowTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

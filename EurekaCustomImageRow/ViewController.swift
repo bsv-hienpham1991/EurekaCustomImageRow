@@ -7,14 +7,23 @@
 //
 
 import UIKit
+import Eureka
 
-class ViewController: UIViewController {
+class ViewController: FormViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        form +++ Section("Section1")
+            <<< CustomImageRow() { row in
+            }.cellSetup({ (cell, row) in
+                cell.height = { 100 }
+            })
     }
 
-
+    override func tableView(_ tableView: UITableView, willSelectRowAt indexPath: IndexPath) -> IndexPath? {
+        return nil
+    }
 }
 

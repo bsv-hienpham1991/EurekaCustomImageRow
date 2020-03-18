@@ -1,0 +1,6 @@
+framework module Pods_EurekaCustomImageRowTests {
+  umbrella header "Pods-EurekaCustomImageRowTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

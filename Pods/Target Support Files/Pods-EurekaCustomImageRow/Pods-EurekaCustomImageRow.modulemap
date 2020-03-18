@@ -1,0 +1,6 @@
+framework module Pods_EurekaCustomImageRow {
+  umbrella header "Pods-EurekaCustomImageRow-umbrella.h"
+
+  export *
+  module * { export * }
+}

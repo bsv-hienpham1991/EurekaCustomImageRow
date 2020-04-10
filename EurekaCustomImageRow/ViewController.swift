@@ -23,7 +23,10 @@ class ViewController: FormViewController {
     }
 
     override func tableView(_ tableView: UITableView, willSelectRowAt indexPath: IndexPath) -> IndexPath? {
-        return nil
+        if tableView.cellForRow(at: indexPath) is CustomImageCell {
+            return nil
+        }
+        return super.tableView(tableView, willSelectRowAt: indexPath)
     }
 }
 

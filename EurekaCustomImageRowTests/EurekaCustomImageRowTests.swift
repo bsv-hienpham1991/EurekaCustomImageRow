@@ -3,7 +3,7 @@
 //  EurekaCustomImageRowTests
 //
 //  Created by Hien Pham on 3/18/20.
-//  Copyright © 2020 BraveSoft Vietnam. All rights reserved.
+//  Copyright © 2020 Hien Pham. All rights reserved.
 //
 
 import XCTest

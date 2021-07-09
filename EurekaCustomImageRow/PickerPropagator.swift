@@ -3,13 +3,13 @@
 //  EurekaCustomImageRow
 //
 //  Created by Hien Pham on 3/18/20.
-//  Copyright © 2020 BraveSoft Vietnam. All rights reserved.
+//  Copyright © 2020 Hien Pham. All rights reserved.
 //
 
 import Foundation
 import UIKit
 
-protocol PickerPropagatorDelegate: class {
+protocol PickerPropagatorDelegate: AnyObject {
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any])
     func imagePickerControllerDidCancel(_ picker: UIImagePickerController)
 }

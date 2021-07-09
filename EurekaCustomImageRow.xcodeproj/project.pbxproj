@@ -189,7 +189,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1120;
 				LastUpgradeCheck = 1120;
-				ORGANIZATIONNAME = "BraveSoft Vietnam";
+				ORGANIZATIONNAME = "Hien Pham";
 				TargetAttributes = {
 					0E89B9622421B91D000790F8 = {
 						CreatedOnToolsVersion = 11.2.1;
